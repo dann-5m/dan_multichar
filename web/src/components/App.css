@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.nui-wrapper {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+
+.characters-containers {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.characters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.charData {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 384px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #d92121;
+  justify-content: center;
+}
+
+.charName {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.charDOB {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.charID {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.charPhone {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.charBank {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.charData:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Button-container {
+  position: absolute;
+  top: 700px;
+}
+
+.charButtons {
+  padding-top: 41%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.charPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100px;
+  height: 30px;
+  background-color: #38aafc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.charDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100px;
+  height: 30px;
+  background-color: #fc3838;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.charPlay:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.charDelete:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.selectIcon {
+  padding-right: 5px;
+}
+
+.deleteIcon {
+  padding-right: 5px;
+}
+
+.BlankCharacter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 384px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #d92121;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.BlankCharacter:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.plusIcon {
+  display: flex;
+  align-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.form-container {
+  margin-top: 250px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: unset;
+  align-content: flex-start;
+  justify-content: center;
+  width: 560px;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+span {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+}
+
+input {  
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 250px;
+  height: 51px;
+
+  margin-top: 10px;
+  padding-left: 16px;
+  padding-right: 10px;
+  font-size: 24px;
+
+  color: #FFFFFF;
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+  border-radius: 4px;
+  
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.genderOptions {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.gender-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 10px;
+  
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+
+  color: #FFFFFF;
+
+  width: 117px;
+  height: 51px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+
+.form-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin-top: 325px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  width: 80px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 5px;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pop-up-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 30px;
+  color: white;
+  margin-top: 400px;
+  width: 300px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.pop-up-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.pop-up-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2.5px;
+}
+
+.pop-up-button:hover {
+  transform: scale(1.01);
+  box-shadow: 0.5px 1px rgba(0, 0, 0, 0.5);
+}
