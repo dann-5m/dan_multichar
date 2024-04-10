@@ -1,15 +1,12 @@
-# [QBCore] dan_multichar
+# dann-spawn
 
-<img src='https://media.discordapp.net/attachments/832727068701622341/969187054581841960/dann_multcharacter.png'></img>
+Multicharacter resource with integrated support for QBCore Framework, no edits required.
+The interface is a replacement for qb_multichar, so if you don’t like it you can use any edits or modify it yourself.
 
-## Support?
-Unfortuantely I will not be providing support for this resource as it's very outdated.
+### Features
+• Create / Play As / Delete Characters
+• Hot swap characters without relogging
+• Modern, Responsive UI
+• Optimized (~0.00 - 0.02ms)
 
-## Preview
-https://youtu.be/jnHiJG_axWc
- 
- ## Requirements
- - QBCore
- 
- ## Installation
- This resource can be "drag n drop" into your qbcore server as it replaces qb-multicharacter
+### [Preview](https://www.youtube.com/watch?v=jnHiJG_axWc)
